@@ -1,0 +1,42 @@
+.img{ 
+    height: 267px;
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.taco{
+    margin-left: 80px;
+    margin-top: 0;
+}
+.table,th,td{
+    border: 0.5px  dotted black;
+    
+}
+.coimg{
+    margin-left: 50px;
+    border-radius: 50px
+}
+.cont{
+    margin-left: 80px;
+}
+
+.hoimg{
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.hour{
+    margin-left: 80px;
+    margin-top: 0px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.link ul {
+    list-style-type: none;
+}
+.link a:hover{
+    color: gray;
+
+}
