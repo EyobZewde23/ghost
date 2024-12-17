@@ -1,0 +1,35 @@
+body{
+    background:darkolivegreen;
+    font-family: cursive;
+}
+header{
+    text-align: center;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+    font-size: 10rem;
+}
+.img{
+    
+    display: inline-block;
+    
+    padding: 10px;
+}
+p{
+    font-family:cursive ;
+    color: aquamarine;
+    font-size: 2rem;
+    
+}
+.btn{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
