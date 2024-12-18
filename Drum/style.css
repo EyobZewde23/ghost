@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background: rgb(34, 56, 36);
+}
+h1{
+    font-size: 5rem;
+    color: rgb(137, 177, 230);
+}
+.key{
+    text-align: center;
+    
+}
+.w{
+    background:url(dimage/w.png);
+}
+.a{
+    background:url(dimage/a.png);
+}
+.s{
+    background: url(dimage/s.png);
+}
+.d{
+    background: url(dimage/d.png);
+}
+.j{
+    background: url(dimage/j.png);
+}
+.k{
+    background: url(dimage/k.png);
+}
+.l{
+    background: url(dimage/l.png);
+}
+.drum{
+    text-align: center;
+    box-shadow: 30cap;
+    display: inline-block;
+    margin: 10px;
+    height: 150px;
+    width:150px;
+    font-size: 5rem;
+    color: black;
+    text-shadow: 20cap;
+    border-radius: 20px;
+    
+}
