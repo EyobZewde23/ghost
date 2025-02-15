@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Grechen Fuemen", serif;
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+}
+.main-header {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: #222;
+}
+.wrapper {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  padding: 40px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo i {
+  height: 45px;
+  width: 45px;
+  background: orangered;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.logo .logo-text {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+nav .togglebtn {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 45px;
+  right: 3%;
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+}
+nav .togglebtn span {
+  display: block;
+  background: purple;
+  margin: 5px 0px;
+  width: 100%;
+  height: 3px;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+}
+nav .navlinks {
+  list-style-type: none;
+}
+nav .navlinks li {
+  display: inline-block;
+}
+nav .navlinks a {
+  color: white;
+  margin-right: 2.5rem;
+  font-size: 30px;
+}
+nav .navlinks a:hover {
+  box-shadow: 0px 5px 3px rgb(202, 123, 19);
+  border-radius: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+.container .pro-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 10px 15px 10px rgb(202, 123, 19);
+}
+.pro-pic img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+.pro-pic img:hover {
+  transform: scale(1.5);
+}
+.pro-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.pro-text h5 {
+  color: white;
+  font-size: 20px;
+}
+.pro-text h5 span {
+  color: orangered;
+  font-size: 23px;
+}
+.pro-text h1 {
+  color: orangered;
+  font-size: 4rem;
+}
+.pro-text p {
+  color: white;
+  font-size: 25px;
+  font-family: "Nunito";
+}
+.btn-group {
+  margin: 45px 0;
+}
+.btn-group .btn {
+  border-color: orangered;
+  color: white;
+  background: #333;
+  padding: 12px 25px;
+  margin: 5px 0;
+  margin-right: 7px;
+  border-radius: 30px;
+  border: 2px solid orangered;
+  box-shadow: 0 10px 10px -8px rgb(0, 0, 0/78%);
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+.btn-group .btn:hover {
+  box-shadow: 1px 5px 10px 2px rgb(172, 107, 22);
+  transform: scale(1.05);
+}
+.pro-text .social i {
+  color: white;
+  font-size: 18px;
+  margin-right: 18px;
+  transition: 0.5s;
+}
+.pro-text .social i:hover {
+  color: orangered;
+  transform: rotate(360deg);
+}
+.skill {
+  display: flex;
+  align-items: center;
+  padding-top: 10rem;
+  flex-direction: column;
+}
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  gap: 5rem;
+}
+#Skill {
+  color: white;
+  align-items: center;
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+.skill-item img {
+  transition: 0.5s;
+}
+.skill-item img:hover {
+  transform: scale(1.2);
+}
+.skill-item span {
+  display: none;
+}
+.projects {
+  background: transparent;
+  justify-content: center;
+  padding-top: 5rem;
+  text-align: center;
+  color: white;
+}
+#project {
+  padding-top: 20rem;
+}
+.projecto-title {
+  color: white;
+  font-size: 4rem;
+}
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-block: 2rem;
+  color: white;
+}
+.project-card {
+  position: relative;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+.projects img {
+  height: 100%;
+  width: 100%;
+}
+.project-model {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 0%, 0) 3%,
+    hsla(0, 100%, 50%, 0.8) 120%
+  );
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: bottom 0.4s;
+  padding: 3rem;
+}
+.project-model {
+  color: white;
+}
+.subtitle,
+.projectbtn,
+.title {
+  color: white;
+  padding: 0.5rem;
+}
+.subtitle {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.title {
+  margin-bottom: 0.75rem;
+}
+.project-card:hover .project-model {
+  bottom: 0;
+}
+@media (max-width: 930px) {
+  nav .togglebtn {
+    display: initial;
+  }
+  .click {
+    top: 45px;
+  }
+  .click span {
+    position: absolute;
+    margin-top: 12px;
+  }
+  .click span:first-child {
+    transform: rotate(-40deg);
+  }
+  .click span:nth-child(2) {
+    opacity: 0;
+    margin: 0;
+  }
+  .click span:last-child {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  nav .navlinks {
+    position: absolute;
+    top: 110px;
+    right: -100%;
+    bottom: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: #222;
+    z-index: 3;
+    box-shadow: 5px 13px 30px rgb(0, 0, 0, 1);
+    transition: 0.5s;
+    padding: 25px 0;
+  }
+  nav .navlinks li {
+    display: block;
+  }
+  nav .navlinks a {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  nav .navlinks.open {
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .pro-text {
+    padding: 40px 0px;
+  }
+
+  .skill-item {
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill-item span {
+    display: block;
+    color: white;
+  }
+  .skill-itembox {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    font-size: 50px;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card {
+    height: 50vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

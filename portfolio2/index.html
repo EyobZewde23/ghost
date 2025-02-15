@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>portfolio</title>
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="wrapper">
+        <header id="home">
+          <div class="logo">
+            <i class="icon">EZ</i>
+            <div class="logo-text">Eyob Zewde</div>
+          </div>
+          <nav>
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#Skill">Skill</a></li>
+              <li><a href="#project">Projects</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="pro-pic">
+            <img class="pic" src="images/1739625528067.jpg" alt="" />
+          </div>
+          <div class="pro-text">
+            <h5>Hi I'm <span class="input">Frontned Developer</span></h5>
+            <h1>Eyob Zewde</h1>
+            <p>
+              I am an aspiring software developer with a strong foundation in
+              front-end technologies, including HTML, CSS, and JavaScript.
+              Currently studying Electrical Engineering at Adama Science and
+              Technology University, I am passionate about building responsive
+              and user-friendly web applications. I am always eager to learn new
+              technologies and enhance my skills in full-stack development.
+            </p>
+            <div class="btn-group">
+              <a href="#" class="btn cv">Download Cv</a>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/share/1DGPcCnxGV/"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="@eyobzg"><i class="fab fa-telegram"></i></a>
+              <a
+                href="https://www.linkedin.com/in/eyob-zewde-688844303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/eyob_zeg?igsh=MTVpMmttY2diMnM4dg=="
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://x.com/EyobZewdee?t=GNAiohcCwvMefyGhkqKaxQ&s=09"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://github.com/EyobZewde23/ghost"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill">
+        <h4 id="Skill">Skill</h4>
+        <div class="skill-item">
+          <div class="skill-itembox">
+            <img src="images/skills-html.svg" alt="image" class="skill-item" />
+            <span>HTMl</span>
+          </div>
+          <div class="skill-itembox">
+            <img src="images/skills-css.svg" alt="image" class="skill-item" />
+            <span>CSS</span>
+          </div>
+          <div class="skill-itembox">
+            <img
+              src="images/skills-javascript.svg"
+              alt="image"
+              class="skill-item"
+            />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-itembox">
+            <img src="images/skills-react.svg" alt="image" class="skill-item" />
+            <span>React</span>
+          </div>
+          <div class="skill-itembox">
+            <img
+              src="images/skills-github.svg"
+              alt="image"
+              class="skill-item"
+            />
+            <span>Github</span>
+          </div>
+        </div>
+      </div>
+      <section class="projects" id="project">
+        <h1 class="projecto-title">Recent Projects</h1>
+        <div class="project-container">
+          <article class="project-card">
+            <img
+              src="images/Screenshot_15-2-2025_223330_127.0.0.jpg"
+              class="projects img"
+              alt="image"
+            />
+            <div class="project-model">
+              <span class="subtitle">Web</span>
+              <h2 class="title">Taco Shop Webpage:-HTML|CSS</h2>
+              <a
+                href="https://github.com/EyobZewde23/ghost/tree/master"
+                class="projectbtn"
+                >View Project<i class="ri-external-link-line"></i
+              ></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img
+              src="images/Screenshot_15-2-2025_22333_127.0.0.jpg"
+              class="projects img"
+              alt="image"
+            />
+            <div class="project-model">
+              <span class="subtitle">Form</span>
+              <h2 class="title">Login Form:-HTML|CSS</h2>
+              <a
+                href="https://github.com/EyobZewde23/ghost/tree/master"
+                class="projectbtn"
+                >View Project</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+      var togglebtn = document.querySelector(".togglebtn");
+      var nav = document.querySelector(".navlinks");
+      var links = document.querySelector(".navlinks li");
+
+      togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+      });
+      var typed = new Typed(".input", {
+        strings: ["Frontend Developer", "WEb Developer"],
+        typedSpeed: 50,
+        backspeed: 55,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
