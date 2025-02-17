@@ -1,0 +1,27 @@
+.card{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  box-shadow: 5px 5px 5px hsla(91, 81%, 15%, 0.897);
+  border-radius: 10px;
+  max-width: 400px;
+  background: #000;
+  text-align: center;
+}
+.card-img{
+  height: inherit;
+  max-width: 200px;
+  padding: 30px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.card-img:hover{
+  transform: scale(1.1);
+}
+.card-head{
+  color: white;
+}
+.card-dis{
+  color:white;
+}
