@@ -326,7 +326,7 @@ nav .navlinks a:hover {
     display: flex;
     align-items: center;
     gap: 4rem;
-    font-size: 50px;
+    font-size: 30px;
   }
   .project-container {
     display: flex;
