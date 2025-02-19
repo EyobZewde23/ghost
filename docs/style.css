@@ -124,7 +124,7 @@ nav .navlinks a:hover {
 .pro-text p {
   color: white;
   font-size: 25px;
-  font-family: "Nunito";
+  font-family:'Times New Roman', Times, serif;
 }
 .btn-group {
   margin: 45px 0;
